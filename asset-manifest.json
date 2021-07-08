@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Simple-Shopping-Cart-with-React-Hooks/static/css/main.ba71f4da.chunk.css",
+    "main.js": "/Simple-Shopping-Cart-with-React-Hooks/static/js/main.e73e5725.chunk.js",
+    "main.js.map": "/Simple-Shopping-Cart-with-React-Hooks/static/js/main.e73e5725.chunk.js.map",
+    "runtime-main.js": "/Simple-Shopping-Cart-with-React-Hooks/static/js/runtime-main.97adcc16.js",
+    "runtime-main.js.map": "/Simple-Shopping-Cart-with-React-Hooks/static/js/runtime-main.97adcc16.js.map",
+    "static/js/2.8b8d4d47.chunk.js": "/Simple-Shopping-Cart-with-React-Hooks/static/js/2.8b8d4d47.chunk.js",
+    "static/js/2.8b8d4d47.chunk.js.map": "/Simple-Shopping-Cart-with-React-Hooks/static/js/2.8b8d4d47.chunk.js.map",
+    "static/js/3.4855f085.chunk.js": "/Simple-Shopping-Cart-with-React-Hooks/static/js/3.4855f085.chunk.js",
+    "static/js/3.4855f085.chunk.js.map": "/Simple-Shopping-Cart-with-React-Hooks/static/js/3.4855f085.chunk.js.map",
+    "index.html": "/Simple-Shopping-Cart-with-React-Hooks/index.html",
+    "static/css/main.ba71f4da.chunk.css.map": "/Simple-Shopping-Cart-with-React-Hooks/static/css/main.ba71f4da.chunk.css.map",
+    "static/js/2.8b8d4d47.chunk.js.LICENSE.txt": "/Simple-Shopping-Cart-with-React-Hooks/static/js/2.8b8d4d47.chunk.js.LICENSE.txt",
+    "static/media/avocado-small.093f786e.jpg": "/Simple-Shopping-Cart-with-React-Hooks/static/media/avocado-small.093f786e.jpg",
+    "static/media/banana-small.819adefb.jpg": "/Simple-Shopping-Cart-with-React-Hooks/static/media/banana-small.819adefb.jpg",
+    "static/media/chili-small.1d306692.jpg": "/Simple-Shopping-Cart-with-React-Hooks/static/media/chili-small.1d306692.jpg",
+    "static/media/kiwi-small.60c474be.jpg": "/Simple-Shopping-Cart-with-React-Hooks/static/media/kiwi-small.60c474be.jpg",
+    "static/media/lemon-small.46258472.jpg": "/Simple-Shopping-Cart-with-React-Hooks/static/media/lemon-small.46258472.jpg",
+    "static/media/orange-small.a1a30cbe.jpg": "/Simple-Shopping-Cart-with-React-Hooks/static/media/orange-small.a1a30cbe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97adcc16.js",
+    "static/js/2.8b8d4d47.chunk.js",
+    "static/css/main.ba71f4da.chunk.css",
+    "static/js/main.e73e5725.chunk.js"
+  ]
+}
