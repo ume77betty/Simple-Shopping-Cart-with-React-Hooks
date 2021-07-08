@@ -15,54 +15,42 @@ const Shop = () => {
       name: '酪梨',
       price: 50,
       unit: '顆',
-      pic: Avocado,
-      quantity: 1,
-      cart: false
+      pic: Avocado
     },
     {
       id: 2,
       name: '香蕉',
       price: 45,
       unit: '包(3~4根)',
-      pic: Banana,
-      quantity: 1,
-      cart: false
+      pic: Banana
     },
     {
       id: 3,
       name: '辣椒',
       price: 40,
       unit: '包(100g)',
-      pic: Chili,
-      quantity: 1,
-      cart: false
+      pic: Chili
     },
     {
       id: 4,
       name: '奇異果',
       price: 30,
       unit: '顆',
-      pic: Kiwi,
-      quantity: 1,
-      cart: false
-    },
-    {
-      id: 6,
-      name: '檸檬',
-      price: 40,
-      unit: '袋(600g)',
-      pic: Lemon,
-      quantity: 1,
-      cart: false
+      pic: Kiwi
     },
     {
       id: 5,
+      name: '檸檬',
+      price: 40,
+      unit: '袋(600g)',
+      pic: Lemon
+    },
+    {
+      id: 6,
       name: '橘子',
       price: 70,
       unit: '袋(600g)',
-      pic: Orange,
-      quantity: 1,
-      cart: false
+      pic: Orange
     }
   ]);
 
@@ -85,7 +73,6 @@ const Shop = () => {
       quantity: 1,
       cart: true
     };
-    console.log(data);
     setCart((prev) => {
       return [
         ...prev,
