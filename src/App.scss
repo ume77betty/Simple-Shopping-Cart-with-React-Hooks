@@ -1,0 +1,158 @@
+$color-primary: #9C6630;
+$color-secondary: #D0AD8B;
+$background-color: #faedcd;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; // 1rem = 10px
+  background-color: $background-color;
+}
+
+.header {
+  width: 90%;
+  margin: 2rem auto;
+  font-size: 1.7rem;
+  font-weight: normal;
+  color: $color-primary;
+}
+
+.shop {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.shop-list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+
+  @media only screen and (max-width: 56.25em) {
+    flex-wrap: wrap;
+  }
+
+}
+
+.product-list {
+  font-size: 1.6rem;
+  color: $color-primary;
+
+  @media only screen and (max-width: 56.25em) {
+    width: 30%;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    width: 50%;
+  }
+
+  & > * {
+    margin-bottom: 1rem;
+  }
+
+  &__name {
+    width: 90%;
+    margin: 0 auto .5rem auto;
+    border: 1px solid $color-primary;
+    border-radius: 20px;
+    padding: 2px 0;
+  }
+
+  &__img {
+    width: 90%;
+    border-radius: 3px;
+  }
+  
+  &__in-cart {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    color: $color-primary;
+    background-color: $background-color;
+  }
+
+  &__cart-botton {
+    border: 1px solid $color-primary;
+    color: white;
+    background-color: $color-primary;
+    cursor: pointer;
+  }
+}
+
+.cart-list {
+  margin-top: 2rem;
+  color: $color-primary;
+
+  &__category {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid $color-secondary;
+
+    & > * {
+      width: 50%;
+      text-align: center;
+    }
+  }
+
+  &__total-amount {
+    border-top: 1px solid $color-secondary;
+    text-align: right;
+    padding: 2rem 5rem 5rem 5rem;
+    font-size: 2rem;
+    color: $color-primary;
+  }
+}
+
+.cart {
+  display: flex;
+  height: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+
+  & > * {
+    width: 50%;
+    text-align: center;
+  }
+
+  &__header {
+    font-size: 3rem;
+  }
+
+  &__botton-area {
+    display: flex;
+  }
+
+  &__delete-botton {
+    text-decoration: none;
+    color: $color-primary;
+    border: 1px solid $color-primary;
+    border-radius: 20px;
+  }
+}
+
+.btn {
+  padding: 0 1px 2px 1px;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2rem;
+  color: $color-primary;
+  margin: 0 auto;
+  border: 1px solid $color-primary;
+  border-radius: 50%;
+}
+
+.text-btn {
+  border: 1px solid $color-primary;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  border-radius: 20px;
+}
